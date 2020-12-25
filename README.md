@@ -21,3 +21,8 @@ plus2 5
 :t [1..6]
 ```
 > `rangeFromTo (fromInteger 1) (fromInteger 6) : List Integer`
+
+## Todo
+There's a lot missing. Since everything is run through the REPL, declaring functions with multiple lines is difficult, and you won't be able to `:exec` with variables defined by `:let`. 
+
+* Look more into how IHaskell is built and model this off of that.
